@@ -339,7 +339,7 @@ module.exports = function(gd, plotinfo, cdheatmaps, heatmapLayer) {
             width: imageWidth,
             x: left,
             y: top,
-            'xlink:href': canvas.toDataURL('image/png')
+            'xlink:href': canvas.toDataURL('image/png', 0.3)
         });
     });
 };
